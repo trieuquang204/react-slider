@@ -1,11 +1,8 @@
-import './App.css';
+import Slider from "./components/Slider";
 
+// Require: Make slider without library
 function App() {
-  return (
-    <div className="App">
-      <h2>Quang kute9x</h2>
-    </div>
-  );
+  return <Slider />;
 }
 
 export default App;
